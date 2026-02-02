@@ -15,7 +15,7 @@ def get_argument_parser():
         choices=["markdown"],
         type=str,
         required=True,
-        help="変換後のファイル形式を指定します。",
+        help="変換前のファイル形式を指定します。",
     )
     return parser
 
